@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"image/draw"
 
-	"github.com/gen2brain/x264-go/yuv"
+	"github.com/devsisters/x264-go/yuv"
 )
 
 // YCbCr is an in-memory image of Y'CbCr colors.

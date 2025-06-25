@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gen2brain/x264-go"
+	"github.com/devsisters/x264-go"
 	"github.com/kbinani/screenshot"
 )
 

@@ -1,7 +1,7 @@
 ## x264-go
-[![Build Status](https://github.com/gen2brain/x264-go/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/x264-go/actions)
-[![GoDoc](https://godoc.org/github.com/gen2brain/x264-go?status.svg)](https://godoc.org/github.com/gen2brain/x264-go) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/gen2brain/x264-go?branch=master)](https://goreportcard.com/report/github.com/gen2brain/x264-go) 
+[![Build Status](https://github.com/devsisters/x264-go/actions/workflows/build.yml/badge.svg)](https://github.com/devsisters/x264-go/actions)
+[![GoDoc](https://godoc.org/github.com/devsisters/x264-go?status.svg)](https://godoc.org/github.com/devsisters/x264-go) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/devsisters/x264-go?branch=master)](https://goreportcard.com/report/github.com/devsisters/x264-go) 
 
 `x264-go` provides H.264/MPEG-4 AVC codec encoder based on [x264](https://www.videolan.org/developers/x264.html) library.
 
@@ -9,7 +9,7 @@ C source code is included in package. If you want to use external shared/static 
 
 ### Installation
 
-    go get -u github.com/gen2brain/x264-go
+    go get -u github.com/devsisters/x264-go
 
 ### Build tags
 
@@ -19,7 +19,7 @@ C source code is included in package. If you want to use external shared/static 
 
 ### Examples
 
-See [screengrab](https://github.com/gen2brain/x264-go/blob/master/examples/screengrab/screengrab.go) example.
+See [screengrab](https://github.com/devsisters/x264-go/blob/master/examples/screengrab/screengrab.go) example.
 
 ### Usage
 
@@ -32,7 +32,7 @@ import (
 	"image/color"
 	"image/draw"
 
-	"github.com/gen2brain/x264-go"
+	"github.com/devsisters/x264-go"
 )
 
 func main() {
